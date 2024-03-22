@@ -1,0 +1,17 @@
+.outerHolder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* Align items at the start */
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.innerholder {
+    background-color: #D9D9D9;
+    max-width: 1010px;
+    /* Set a max-width for inner content */
+    width: 100%;
+    /* Ensure inner content takes full width */
+
+}

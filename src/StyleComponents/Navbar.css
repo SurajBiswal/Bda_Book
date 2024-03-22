@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullnav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: white;
+    /* position: fixed; */
+}
+
+.navbar {
+    width: 1010px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    width: calc((100% - 713px) / 2);
+}
+
+.navbar-left svg {
+    height: 48px;
+    width: 39px;
+
+    /* height: 100%; */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    width: calc((100% - 713px) / 2);
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.user-profile {
+    /* margin-right: 0px; */
+    margin: auto;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    /* Adjust padding as needed */
+    border: 0.2px solid black;
+    /* Example border style */
+    border-radius: 20px;
+    /* Example border radius */
+    color: black;
+    /* Text color */
+    font-weight: bold;
+    /* Example font weight */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.user-profile:hover {
+    background-color: lightgray;
+    /* Example background color on hover */
+}

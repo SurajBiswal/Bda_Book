@@ -1,0 +1,119 @@
+.card {
+    height: 352.16px;
+    width: 318.07px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    /* border: 0.01px solid black; */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.cardDetails {
+    width: 286.13px;
+    height: 306.88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Heading and Bookmark */
+
+.heading .bookmark-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.heading p {
+    font-size: 12.81px;
+    font-style: normal;
+}
+
+.heading {
+    display: flex;
+    width: 286.13px;
+    justify-content: space-between;
+
+}
+
+
+/* Image part */
+.image img {
+    width: 286.13px;
+    height: 190.04px;
+    /* display: block; */
+}
+
+/* Available button */
+.available {
+    width: 286.13px;
+    height: 35.23px;
+    background-color: #00B562;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* All details of the card ..........................................*/
+
+.details {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 278.66px;
+}
+
+/* Name and place of the playground */
+.nameOfField {
+    font-size: 14px;
+}
+
+.adressOfField {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.nameAdress {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 168px;
+    height: 35px;
+}
+
+/* Rating and numbers of review */
+.RateReview {
+    display: flex;
+    width: 93.9px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Rating */
+.Rating {
+    display: flex;
+    width: 50.36px;
+    height: 21px;
+    justify-content: space-between;
+}
+
+.rateIcon svg {
+    height: 20.65px;
+    width: 21.46px;
+    color: goldenrod;
+}
+
+.rateNumber {
+    font-size: 15.67px;
+    font-weight: 600;
+}
+
+/* Number Of review */
+.reviewNumber {
+    font-size: 15.67px;
+    font-weight: 200;
+}

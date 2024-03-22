@@ -1,0 +1,16 @@
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1010px;
+    /* Updated */
+    margin: 0 auto;
+    /* Center align */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
